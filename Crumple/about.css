@@ -1,0 +1,52 @@
+#background {
+	z-index: -1;
+	position: absolute;
+	top:  0px;
+	left: 0px;
+	height: 110vh;
+}
+
+header {
+	position absolute;
+	top: 0px;
+	left: 0px;
+}
+
+header #about {
+	float: right;
+	padding-right: 20px;
+	margin-top: 10px;
+}
+
+.a-style {
+	font-family: 'Open+Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+  	padding-left: 15px;
+	text-decoration: none;
+	color: rgb(220, 225, 230);
+}
+
+section #text {
+	position: absolute; 
+	left: calc(76%/2); 
+	top: 36%;
+	width: 290px;
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(108,123,139,.9);
+	color: white;
+	font-family: 'Open+Sans', sans-serif;
+}
+
+section .info {
+	color: rgb(220, 225, 230);
+	font-size: 1.15em;
+}
+
+section .title {
+	font-size: 2em;
+	font-weight: bold;
+	color: rgb(220, 225, 230);
+}
