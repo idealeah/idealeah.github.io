@@ -28,10 +28,10 @@ var cnv;
 
 function preload(){
 
-	targetBag = loadSound('./sound/keyFoods.mp3');
-	hdxBag = loadSound('./sound/homeDepot.mp3');
-	sevenBag = loadSound('./sound/seven.mp3');
-	bodegaBag = loadSound('./sound/bodega.mp3');
+	targetBag = loadSound('./Crumple/sound/keyFoods.mp3');
+	hdxBag = loadSound('./Crumple/sound/homeDepot.mp3');
+	sevenBag = loadSound('./Crumple/sound/seven.mp3');
+	bodegaBag = loadSound('./Crumple/sound/bodega.mp3');
 
 	console.log("preload");
 }
@@ -66,10 +66,10 @@ function setup(){
 	ampSeven.setInput(sevenBag);
 	ampBodega.setInput(bodegaBag);
 
-	targetImg = loadImage("./images/targetBag-02.png");
-	hdxImg = loadImage("./images/hdxBag-02.png");
-	sevenImg = loadImage("./images/711Bag-02.png");
-	bodegaImg = loadImage("./images/bodegaBag-02.png"); 
+	targetImg = loadImage("./Crumple/images/targetBag-02.png");
+	hdxImg = loadImage("./Crumple/images/hdxBag-02.png");
+	sevenImg = loadImage("./Crumple/images/711Bag-02.png");
+	bodegaImg = loadImage("./Crumple/images/bodegaBag-02.png"); 
 
 	//cleanUpImg = loadImage("./images/cleanUp-03.png"); 
 
