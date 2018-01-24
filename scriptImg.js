@@ -16,19 +16,19 @@ function loadBags(){
 	var bags = document.getElementsByClassName('bags');
 
 	var targetImg= document.createElement("img");
-	targetImg.src= "./images/targetBag-02.png";
+	targetImg.src= "./Crumple/images/targetBag-02.png";
 	targetImg.id= 'target';
 
 	var hdxImg= document.createElement("img");
-	hdxImg.src= "./images/hdxBag-02.png";
+	hdxImg.src= "./Crumple/images/hdxBag-02.png";
 	hdxImg.id= 'hdx';
 
 	var sevenImg= document.createElement("img");
-	sevenImg.src= "./images/tsevenBag-02.png";
+	sevenImg.src= "./Crumple/images/tsevenBag-02.png";
 	sevenImg.id= 'seven';
 
 	var bodegaImg= document.createElement("img");
-	bodegaImg.src= "./images/bodegaBag-02.png";
+	bodegaImg.src= "./Crumple/images/bodegaBag-02.png";
 	bodegaImg.id= 'bodega';
 
 });
